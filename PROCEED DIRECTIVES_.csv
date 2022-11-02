@@ -1,0 +1,600 @@
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","068","104","TABD","06800000130538","I","92,494.00",0.00,"16,989.00","79,281.00",0.00,11/1/22,"A","ACS; PROCURE TABLEAU DATA MANAGEMENT SOFTWARE INCL PROFESSIONAL SRVCS,",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","806","D91","EXTL","806HAM21EXTLN","I","297,346.00",0.00,0.00,0.00,0.00,11/1/22,"A","LAGUARDIA HOUSES, NYCHA OWNED & OPERATED, LOCATED BTWN MADISON, MONTGO",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","806","254","LEND","806LEND","I","61,518.00",0.00,0.00,0.00,0.00,11/1/22,"A","HOMEFIX PROGRAM FY'23: LOAN PER ART 8-B (PHFL) TO PRIVATE OWNER-OCCUPA",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","806","204","138W","806138W","I","676,750.00",0.00,0.00,0.00,0.00,11/1/22,"A","7A FINANCIAL ASSISTANCE PROGRAM, FY'23; PER ART 7A RPAPL; FUNDS FOR CO",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","806","204","992J","806992J","I","827,024.00",0.00,0.00,0.00,0.00,11/1/22,"A","7A FINANCIAL ASSISTANCE PROGRAM, FY'23; PER ART 7A RPAPL; FUNDS FOR CO",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION","856","410","FCF1","850CO285FIRETG","I","10,162,085.00",0.00,0.00,0.00,0.00,11/1/22,"A","MANHATTAN FAMILY COURT: 60 LAFAYETTE ST., MN: DESIGN & CONSTR FIRE ALA",,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"040","706","CON5","040CON5","I","1,100,000.00",0.00,0.00,0.00,0.00,11/1/22,"C","SMART SCHOOLS BOND ACT (SSBA)  CLASSROOM CONNECTIVITY: TECHNOLOGY INFR","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"806","D91","BVPU","806HAM19BVPU","I","34,139.00",0.00,0.00,0.00,0.00,11/1/22,"C","BAY VIEW HOUSES, BKLYN: NYCHA OWNED & OPERATED, LOCATED BTWN E 102ND S","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"826","804","WP08","82600000130359","I",0.00,"11,667,358.00",0.00,0.00,0.00,11/1/22,"C","ROCKAWAY WATER POLLUTION CONTROL PLANT, BKLYN: DESIGN & CON OF MISCELL","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"826","804","NBWT","82600000130526","I",0.00,"114,474.00",0.00,0.00,0.00,11/1/22,"C","WATER POLLUTION PLANTS, CITYWIDE: INSTALL NEW REPLACEMENT EQUIPMENT FO","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"841","63Y","PC02","8412023-PC02C1","I","372,636.00",0.00,0.00,0.00,0.00,11/1/22,"C","207TH STREET OVER HARLEM RIVER BRIDGE REI & CONSTRUCTION ASSOCIATED W/","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"846","352","352B","8412023-325BC1","I","112,293.00",0.00,0.00,0.00,0.00,11/1/22,"C","DOT: COMP RECON 2 BRIDGES: BELMONT PARK SP RAMP OVER BELT (STEEL,$1.5M","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"846","352","SPP2","850IQARLPSPP2","I","248,066.00",0.00,0.00,0.00,0.00,11/1/22,"C","STARLIGHT PK, BX: PHASE II - STAGE 2: SHERIDAN EXWY BTWN E. 174TH & E.","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,"038","D04","EPO1","850LBM18EPOH03","I","167,133.00",0.00,0.00,0.00,0.00,11/1/22,"C","BPL: EASTERN PARKWAY LIBRARY (1044 EASTERN PARKWAY, BKLYN): RECON INCL","REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
+11/1/22, 3:30:09PM,"PROCEED DIRECTIVES",1,"AGY","U/A","B/C","BUD_CODE_MOD_","I/D","AUTH_CNX_AMT","AUTH_CEX_AMT","AUTH_FD_AMT","AUTH_ST_AMT","AUTH_OTH_AMT","DATE","A","DESCRIPTION",,,,,,,,,,,,,,,,,,,,,,,,,,,"REPORT TOTALS:","14,151,484.00","11,781,832.00","16,989.00","79,281.00",0.00,"NEW (A):","12,213,487.00","Number  of New (A):",6,"INCREASES (C):","13,816,099.00","Number  of Increases (C):",8,"TOTAL:",14,"RecordNumber:",50,"
+ {TCAPCPD100.INC_DEC_FL}='I' AND
+{@CPD1-CCYYMMDD} >= {?StartingDate} AND
+{@CPD1-CCYYMMDD} <= {?EndingDate} AND
+({?SuppressZeros} <> 'Y' OR  ({?SuppressZeros} = 'Y' AND ({TCAPCPD100.AUTH_CNX_AMT} <> 0 OR {TCAPCPD100.AUTH_CEX_AMT} <> 0 OR
+   {TCAPCPD100.AUTH_FD_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_ST_AMT}  <> 0 OR
+   {TCAPCPD100.AUTH_OTH_AMT} <> 0)))
+//AND NOT ({TPROCPDP00.BUDGET_CODE_X} IN {?ExcludeBC(s)})
+ 
+
+","Crystal 10 Version","Starting Date: 10/30/22","Ending Date: 11/2/22","Suppress Zeros: Y","/app/BusinessObject4/sap_bobj/data/CrystalReports2020ProcessingServer/temp/fmspap14node1.CrystalReports2020ProcessingServer/child_CRPE1_51053034/temp/procReportTemp/mgrTemp/ps_2610164bdd5631082a.rpt","Author:","OMB - Herman Platas","Modification Date Time:",11/2/22,12:14:18PM
